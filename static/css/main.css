@@ -1,0 +1,59 @@
+body {
+	background-color: ghostwhite;
+}
+
+.indexItem {
+	margin-bottom: 10px;
+	text-align: left;
+	background-color: white;
+	box-shadow: 0px 0px 2px 0px #666;
+}
+.indexItem .title {
+	padding: 1px;
+	padding-left: 20px;
+	cursor: pointer;
+	background-color: #eee;
+}
+.indexItem .title:hover {
+	background-color: #ddd;
+}
+
+.doctypeItem {
+	padding: 5px;
+	padding-left: 40px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+.doctypeItem h5 {
+	margin: 0;
+}
+.doctypeItem:hover {
+	background-color: #ddd;
+}
+
+
+
+
+pre {
+   text-align: left;
+   background-color: white;
+   border: 1px solid silver;
+   padding: 10px 20px;
+   width: 100%;
+   min-height: 50vh;
+}
+.json-key {
+   color: brown;
+}
+.json-value {
+   color: navy;
+}
+.json-string {
+   color: olive;
+}
+
+
+
+.right {
+	float: right;
+}
