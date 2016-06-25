@@ -9,6 +9,7 @@ def details():
 	if request.method == 'POST':
 		db_index = request.form['db_index']
 		db_doctype = request.form['db_doctype']
+		max_documents_to_fetch = request.form['max_docs']
 
 		q = {
 			"filter" : {
@@ -17,6 +18,6 @@ def details():
 				}
 			}
 		}
-		max_documents_to_fetch = 1
+		
 		res = es_search(db_index,q,False,max_documents_to_fetch)
 		return json.dumps(res["hits"])

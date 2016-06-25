@@ -16,8 +16,7 @@ Also, documents of each doc_type in an index can be seen in a clear JSON format.
 2. Ensure Elasticsearch service is running on your machine and then run ```python app.py``` in the project folder.
 3. Open ```http://localhost:5001``` in browser (Or whatever is the server and port)
 4. A tabular display of indices and doc_types will be shown. Click on a doc_type to see corresponding documents.
-5. Change the ```max_documents_to_fetch``` value in ```query/details.py``` file to increase the documents shown for each doc_type
-(currently showing only 1 document of each type)
+5. Change the count of maximum documents fetched by providing value in input box. (set to 1 by default)
 
 ### Screenshot
 ![Elasticsearch explorer](https://docs.google.com/uc?id=0Byz7IT6HpkQ0X1JzOE1ZeGhsZWM)

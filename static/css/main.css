@@ -57,3 +57,15 @@ pre {
 .right {
 	float: right;
 }
+
+
+.form-control , .input-group-addon {
+	border-radius: 0px;
+}
+.form-control:focus {
+	outline: none;
+	box-shadow: none;
+}
+#inputSubmit {
+	cursor: pointer;
+}
