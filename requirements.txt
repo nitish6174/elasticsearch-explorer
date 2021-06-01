@@ -7,5 +7,5 @@ click==6.6
 elasticsearch==2.4.0
 itsdangerous==0.24
 requests==2.11.1
-urllib3==1.17
+urllib3==1.26.5
 wsgiref==0.1.2
